@@ -642,12 +642,12 @@ video {
   margin-bottom: 2rem;
 }
 
-.mb-20 {
-  margin-bottom: 5rem;
-}
-
 .mt-52 {
   margin-top: 13rem;
+}
+
+.mb-20 {
+  margin-bottom: 5rem;
 }
 
 .mt-20 {
@@ -688,11 +688,6 @@ video {
 
 .cursor-pointer {
   cursor: pointer;
-}
-
-.columns-md {
-  -moz-columns: 28rem;
-       columns: 28rem;
 }
 
 .grid-cols-1 {
@@ -904,6 +899,11 @@ video {
 
 .duration-300 {
   transition-duration: 300ms;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
 }
 
 .secondary-title {
